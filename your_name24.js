@@ -38,9 +38,9 @@ fetch('https://Peterfiorica.github.io/Peterfiorica/PeterFiorica_nightimeroute.ge
     .then(geojson => {
         // Customize the style of the line
         var lineStyle = {
-            color: 'blue', // Change color as needed
+            color: 'green', // Change color as needed
             weight: 5, // Change weight as needed
-            opacity: 0.7 // Change opacity as needed
+            opacity: 0.9 // Change opacity as needed
         };
 
         // Add the GeoJSON line to the map
