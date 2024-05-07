@@ -26,13 +26,13 @@ var marker6 = L.marker([40.579010394121354, -74.10943522598659]).addTo(map);
 marker6.bindPopup("<b>Grant City Train Station</b><br>This is where my walk begins.<br><img src='images/GrantCityTrain-.jpeg' alt='Grant City Train Station Image' style='max-width: 200px;height:auto;'>").openPopup();
 
 var marker7 = L.marker([40.56632942451111, -74.111637203253]).addTo(map);
-marker7.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.<br><img src='https://raw.githubusercontent.com/Peterfiorica/Peterfiorica/main/images/Shoprite.jpeg' alt='ShopRite Image' style='max-width: 200px;height:auto;'>").openPopup();
+marker7.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.").openPopup();
 
 var marker8 = L.marker([40.57016431405762, -74.10955103578445]).addTo(map);
-marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/TerryakiOne.jpeg' alt='Teriyaki One Image' style='max-width: 200px;height:auto;'>").openPopup();
+marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.").openPopup();
 
 var marker9 = L.marker([40.574077461086425, -74.11662680325256]).addTo(map);
-marker9.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/NewDorpTrain.jpeg' alt='New Dorp Train Station Image' style='max-width: 200px;height:auto;'>").openPopup();
+marker9.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.").openPopup();
 
 // Load the GeoJSON line file for day time route
 fetch('https://peterfiorica.github.io/Peterfiorica/PeterFiorica_daytimeroute.geojson')
@@ -60,21 +60,4 @@ fetch('https://Peterfiorica.github.io/Peterfiorica/PeterFiorica_nightimeroute.ge
     .then(geojson => {
         // Customize the style of the line
         var lineStyle = {
-            color: 'green', // Change color as needed
-            weight: 5, // Change weight as needed
-            opacity: 0.9 // Change opacity as needed
-        };
-
-        // Add the GeoJSON line to the map
-        L.geoJSON(geojson, {
-            style: lineStyle
-        }).addTo(map);
-
-        // Corrected marker binding
-        marker7.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.").openPopup();
-        marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.").openPopup();
-        marker9.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.").openPopup();
-    })
-    .catch(error => {
-        console.error('Error loading night time route GeoJSON file:', error);
-    });
+            color: '
