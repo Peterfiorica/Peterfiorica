@@ -19,11 +19,8 @@ marker3.bindPopup("<b>FDNY Engine 165 Ladder 85</b><br>This firehouse is always 
 var marker4 = L.marker([40.58096673060801, -74.12403125025611]).addTo(map);
 marker4.bindPopup("<b>Walker Pond</b><br>Nice pond that I always pass by.").openPopup();
 
-var marker5 = L.marker([40.58096673060801, -74.12403125025611]).addTo(map);
-marker4.bindPopup("<b>Walker Pond</b><br>Nice pond that I always pass by.").openPopup();
-
-var marker5 = L.marker([40.57591118383676, -74.12757071055918]).addTo(map);
-marker4.bindPopup("<b>Amazing Games TCG</b><br>Cool game store that is right by my walk.").openPopup();
+var marker5 = L.marker([40.57591118383676, -74.12757071055918]).addTo(map); // Corrected coordinates and variable name
+marker5.bindPopup("<b>Amazing Games TCG</b><br>Cool game store that is right by my walk.").openPopup();
 
 // Load the GeoJSON line file for day time route
 fetch('https://peterfiorica.github.io/Peterfiorica/PeterFiorica_daytimeroute.geojson')
