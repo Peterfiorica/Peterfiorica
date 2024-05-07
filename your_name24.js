@@ -7,16 +7,16 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Add a marker to the map for New York City
-var marker = L.marker([40.57440999440993, -74.11546985003544]).addTo(map);
+var marker1 = L.marker([40.57440999440993, -74.11546985003544]).addTo(map);
 
 // Add a popup to the marker
-marker.bindPopup("<b>La Strada Italian Restaurant</b><br>My favorite Italian food place.").openPopup();
+marker1.bindPopup("<b>La Strada Italian Restaurant</b><br>My favorite Italian food place.").openPopup();
 
 // Add a marker to the map for New York City
-var marker = L.marker([40.58261285361214, -74.12302251676003]).addTo(map);
+var marker2 = L.marker([40.58261285361214, -74.12302251676003]).addTo(map);
 
 // Add a popup to the marker
-marker.bindPopup("<b>High Rock Park</b><br>My favorite trail on Staten Island.").openPopup();
+marker2.bindPopup("<b>High Rock Park</b><br>My favorite trail on Staten Island.").openPopup();
 
 // Load the GeoJSON line file for day time route
 fetch('https://peterfiorica.github.io/Peterfiorica/PeterFiorica_daytimeroute.geojson')
