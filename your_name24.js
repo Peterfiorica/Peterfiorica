@@ -8,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Add markers to the map
 var marker1 = L.marker([40.57440999440993, -74.11546985003544]).addTo(map);
-marker1.bindPopup("<b>La Strada Italian Restaurant</b><br>My favorite Italian food place.").openPopup();
+marker1.bindPopup("<b>La Strada Italian Restaurant</b><br>My favorite Italian food place.<br><img src='https://raw.githubusercontent.com/Peterfiorica/Peterfiorica/main/images/LaStrada.jpeg' alt='Restaurant Image' style='max-width: 100px;'>").openPopup();
 
 var marker2 = L.marker([40.58261285361214, -74.12302251676003]).addTo(map);
 marker2.bindPopup("<b>High Rock Park</b><br>My favorite trail on Staten Island.").openPopup();
