@@ -22,6 +22,18 @@ marker4.bindPopup("<b>Walker Pond</b><br>Nice pond that I always pass by.").open
 var marker5 = L.marker([40.57591118383676, -74.12757071055918]).addTo(map); // Corrected coordinates and variable name
 marker5.bindPopup("<b>Amazing Games TCG</b><br>Cool game store that is right by my walk.").openPopup();
 
+var marker6 = L.marker([40.579010394121354, -74.10943522598659]).addTo(map); // Corrected coordinates and variable name
+marker5.bindPopup("<b>Grant City Train Station</b><br>This is where my walk begins.").openPopup();
+
+var marker7 = L.marker([40.56632942451111, -74.111637203253]).addTo(map); // Corrected coordinates and variable name
+marker5.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.").openPopup();
+
+var marker8 = L.marker([40.57016431405762, -74.10955103578445]).addTo(map); // Corrected coordinates and variable name
+marker5.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.").openPopup();
+
+var marker9 = L.marker([40.574077461086425, -74.11662680325256]).addTo(map); // Corrected coordinates and variable name
+marker5.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.").openPopup();
+
 // Load the GeoJSON line file for day time route
 fetch('https://peterfiorica.github.io/Peterfiorica/PeterFiorica_daytimeroute.geojson')
     .then(response => response.json())
