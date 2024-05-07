@@ -29,7 +29,7 @@ var marker7 = L.marker([40.56632942451111, -74.111637203253]).addTo(map);
 marker7.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/Shoprite.jpeg' alt='ShopRite Image' style='max-width: 100px;'>").openPopup();
 
 var marker8 = L.marker([40.57016431405762, -74.10955103578445]).addTo(map);
-marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.").openPopup();
+marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/TerryakiOne.jpeg' alt='Teriyaki One Image' style='max-width: 100px;'>").openPopup();
 
 var marker9 = L.marker([40.574077461086425, -74.11662680325256]).addTo(map);
 marker9.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.").openPopup();
