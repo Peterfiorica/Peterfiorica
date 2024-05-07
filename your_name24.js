@@ -25,7 +25,7 @@ var marker3 = L.marker([40.57613950267241, -74.12379090325251]).addTo(map);
 marker3.bindPopup("<b>FDNY Engine 165 Ladder 85</b><br>This firehouse is always the starting point for my walk.").openPopup();
 
 // Add a marker to the map for New York City
-var marker3 = L.marker([40.58096673060801, -74.12403125025611).addTo(map);
+var marker3 = L.marker([40.58096673060801, -74.12403125025611]).addTo(map);
 
 // Add a popup to the marker
 marker3.bindPopup("<b>Walker Pond</b><br>Nice pond that I always pass by.").openPopup();
