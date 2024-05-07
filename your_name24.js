@@ -17,7 +17,7 @@ var marker3 = L.marker([40.57613950267241, -74.12379090325251]).addTo(map);
 marker3.bindPopup("<b>FDNY Engine 165 Ladder 85</b><br>This firehouse is always the starting point for my walk.<br><img src='https://raw.githubusercontent.com/Peterfiorica/Peterfiorica/main/images/FDNY.jpeg' alt='Firehouse Image' style='max-width: 100px;'>").openPopup();
 
 var marker4 = L.marker([40.58096673060801, -74.12403125025611]).addTo(map);
-marker4.bindPopup("<b>Walker Pond</b><br>Nice pond that I always pass by.<br><img src='https://raw.githubusercontent.com/Peterfiorica/Peterfiorica/main/images/LaStrada.jpeg' alt='Restaurant Image' style='max-width: 100px;'>").openPopup();
+marker4.bindPopup("<b>Walker Pond</b><br>Nice pond that I always pass by.<br><img src='https://https://github.com/Peterfiorica/Peterfiorica/blob/main/images/walker-pond.jpg' alt='Restaurant Image' style='max-width: 100px;'>").openPopup();
 
 var marker5 = L.marker([40.57591118383676, -74.12757071055918]).addTo(map);
 marker5.bindPopup("<b>Amazing Games TCG</b><br>Cool game store that is right by my walk.").openPopup();
