@@ -32,7 +32,7 @@ var marker8 = L.marker([40.57016431405762, -74.10955103578445]).addTo(map);
 marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.<br><img src='https://github.com/Peterfiorica/Peterfiorica/blob/main/images/TeriyakiOne.jpeg' alt='Teriyaki One Image' style='max-width: 80px;'>").openPopup();
 
 var marker9 = L.marker([40.574077461086425, -74.11662680325256]).addTo(map);
-marker9.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.").openPopup();
+marker9.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.<br><img src='https://github.com/Peterfiorica/Peterfiorica/blob/main/images/NewDorpTrain.jpeg' alt='New Dorp Train Station Image' style='max-width: 80px;'>").openPopup();
 
 // Load the GeoJSON line file for day time route
 fetch('https://peterfiorica.github.io/Peterfiorica/PeterFiorica_daytimeroute.geojson')
