@@ -23,7 +23,7 @@ var marker5 = L.marker([40.57591118383676, -74.12757071055918]).addTo(map);
 marker5.bindPopup("<b>Amazing Games TCG</b><br>Cool game store that is right by my walk.").openPopup();
 
 var marker6 = L.marker([40.579010394121354, -74.10943522598659]).addTo(map);
-marker6.bindPopup("<b>Grant City Train Station</b><br>This is where my walk begins.").openPopup();
+marker6.bindPopup("<b>Grant City Train Station</b><br>This is where my walk begins.<br><img src='https://github.com/Peterfiorica/Peterfiorica/blob/main/images/GrantCityTrain-.jpeg' alt='Grant City Train Station Image' style='max-width: 200px;height:auto;'>").openPopup();
 
 var marker7 = L.marker([40.56632942451111, -74.111637203253]).addTo(map);
 marker7.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.").openPopup();
