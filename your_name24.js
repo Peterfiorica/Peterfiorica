@@ -11,7 +11,7 @@ var marker1 = L.marker([40.57440999440993, -74.11546985003544]).addTo(map);
 marker1.bindPopup("<b>La Strada Italian Restaurant</b><br>My favorite Italian food place.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/LaStrada.jpeg' alt='Restaurant Image' style='max-width: 100px;'>").openPopup();
 
 var marker2 = L.marker([40.58261285361214, -74.12302251676003]).addTo(map);
-marker2.bindPopup("<b>High Rock Park</b><br>My favorite trail on Staten Island.").openPopup();
+marker2.bindPopup("<b>High Rock Park</b><br>My favorite trail on Staten Island.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/HighRockPark.jpeg' alt='High Rock Park Image
 
 var marker3 = L.marker([40.57613950267241, -74.12379090325251]).addTo(map);
 marker3.bindPopup("<b>FDNY Engine 165 Ladder 85</b><br>This firehouse is always the starting point for my walk.").openPopup();
