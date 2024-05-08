@@ -87,13 +87,4 @@ fetch('https://Peterfiorica.github.io/Peterfiorica/Peterfioricadaytimeroutebuild
         // Add the GeoJSON polygon to the map
         L.geoJSON(geojson, {
             style: polygonStyle
-        }).addTo(map);
-    })
-    .catch(error => {
-        console.error('Error loading GeoJSON file:', error);
-    });
-
-// Corrected marker binding
-marker7.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.").openPopup();
-marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.").openPopup();
-marker9.bindPopup("<b>New Dorp Train Station</b><br>I
+        }).
