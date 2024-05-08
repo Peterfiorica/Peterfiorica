@@ -92,16 +92,8 @@ fetch('https://Peterfiorica.github.io/Peterfiorica/Peterfioricadaytimeroutebuild
     .catch(error => {
         console.error('Error loading GeoJSON file:', error);
     });
-})
-.catch(error => {
-    console.error('Error loading GeoJSON file:', error);
-});
 
-        // Corrected marker binding
-        marker7.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.").openPopup();
-        marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.").openPopup();
-        marker9.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.").openPopup();
-    })
-    .catch(error => {
-        console.error('Error loading night time route GeoJSON file:', error);
-    });
+// Corrected marker binding
+marker7.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.").openPopup();
+marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.").openPopup();
+marker9.bindPopup("<b>New Dorp Train Station</b><br>I
