@@ -25,14 +25,19 @@ marker5.bindPopup("<b>Amazing Games TCG</b><br>Cool game store that is right by 
 var marker6 = L.marker([40.579010394121354, -74.10943522598659]).addTo(map);
 marker6.bindPopup("<b>Grant City Train Station</b><br>This is where my walk begins.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/GrantCityTrain-.jpeg' alt='Grant City Train Station Image' style='max-width: 200px;height:auto;'>").openPopup();
 
+// Define Leaflet markers and bind popups with updated image URLs
+
+// Marker 7 - ShopRite
 var marker7 = L.marker([40.56632942451111, -74.111637203253]).addTo(map);
-marker7.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/Shoprite.jpeg' alt='ShopRite Image'>").openPopup();
+marker7.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.<br><img src='https://github.com/Peterfiorica/Peterfiorica/blob/main/images/Shoprite.jpeg?raw=true' alt='ShopRite Image'>").openPopup();
 
+// Marker 8 - Teriyaki One
 var marker8 = L.marker([40.57016431405762, -74.10955103578445]).addTo(map);
-marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/TeriyakiOne.jpeg' alt='Teriyaki One Image'>").openPopup();
+marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.<br><img src='https://github.com/Peterfiorica/Peterfiorica/blob/main/images/TeriyakiOne.jpeg?raw=true' alt='Teriyaki One Image'>").openPopup();
 
+// Marker 9 - New Dorp Train Station
 var marker9 = L.marker([40.574077461086425, -74.11662680325256]).addTo(map);
-marker9.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/NewDorpTrain.jpeg' alt='New Dorp Train Station Image'>").openPopup();
+marker9.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.<br><img src='https://github.com/Peterfiorica/Peterfiorica/blob/main/images/NewDorpTrain.jpeg?raw=true' alt='New Dorp Train Station Image'>").openPopup();
 
 // Load the GeoJSON line file for day time route
 fetch('https://peterfiorica.github.io/Peterfiorica/PeterFiorica_daytimeroute.geojson')
