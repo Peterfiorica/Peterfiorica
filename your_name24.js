@@ -7,33 +7,41 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // Add markers to the map
+// Add markers to the map
 var marker1 = L.marker([40.57440999440993, -74.11546985003544]).addTo(map);
 marker1.bindPopup("<b>La Strada Italian Restaurant</b><br>My favorite Italian food place.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/LaStrada.jpeg' alt='Restaurant Image' style='max-width: 100px;'>").openPopup();
+console.log("Image URL for marker1:", 'https://github.com/Peterfiorica/Peterfiorica/raw/main/images/LaStrada.jpeg');
 
 var marker2 = L.marker([40.58261285361214, -74.12302251676003]).addTo(map);
 marker2.bindPopup("<b>High Rock Park</b><br>My favorite trail on Staten Island.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/HighRockPark.jpeg' alt='High Rock Park Image'>").openPopup();
+console.log("Image URL for marker2:", 'https://github.com/Peterfiorica/Peterfiorica/raw/main/images/HighRockPark.jpeg');
 
 var marker3 = L.marker([40.57613950267241, -74.12379090325251]).addTo(map);
 marker3.bindPopup("<b>FDNY Engine 165 Ladder 85</b><br>This firehouse is always the starting point for my walk.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/FDNY.jpeg' alt='FDNY Image' style='max-width: 100px;'>").openPopup();
+console.log("Image URL for marker3:", 'https://github.com/Peterfiorica/Peterfiorica/raw/main/images/FDNY.jpeg');
 
 var marker4 = L.marker([40.58096673060801, -74.12403125025611]).addTo(map);
 marker4.bindPopup("<b>Walker Pond</b><br>Nice pond that I always pass by.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/walker-pond.jpg' alt='Walker Pond Image' style='max-width: 100px;'>").openPopup();
+console.log("Image URL for marker4:", 'https://github.com/Peterfiorica/Peterfiorica/raw/main/images/walker-pond.jpg');
 
 var marker5 = L.marker([40.57591118383676, -74.12757071055918]).addTo(map);
 marker5.bindPopup("<b>Amazing Games TCG</b><br>Cool game store that is right by my walk.").openPopup();
 
 var marker6 = L.marker([40.579010394121354, -74.10943522598659]).addTo(map);
 marker6.bindPopup("<b>Grant City Train Station</b><br>This is where my walk begins.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/GrantCityTrain-.jpeg' alt='Grant City Train Station Image' style='max-width: 200px;height:auto;'>").openPopup();
+console.log("Image URL for marker6:", 'https://github.com/Peterfiorica/Peterfiorica/raw/main/images/GrantCityTrain-.jpeg');
 
 var marker7 = L.marker([40.56632942451111, -74.111637203253]).addTo(map);
 marker7.bindPopup("<b>ShopRite</b><br>My grocery store when I go shopping at night.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/Shoprite.jpeg' alt='ShopRite Image'>").openPopup();
+console.log("Image URL for marker7:", 'https://github.com/Peterfiorica/Peterfiorica/raw/main/images/Shoprite.jpeg');
 
 var marker8 = L.marker([40.57016431405762, -74.10955103578445]).addTo(map);
 marker8.bindPopup("<b>Teriyaki One</b><br>Delicious restaurant.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/TeriyakiOne.jpeg' alt='Teriyaki One Image'>").openPopup();
+console.log("Image URL for marker8:", 'https://github.com/Peterfiorica/Peterfiorica/raw/main/images/TeriyakiOne.jpeg');
 
 var marker9 = L.marker([40.574077461086425, -74.11662680325256]).addTo(map);
-marker9.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/NewDorpTrain.jpeg' alt='New Dorp Train Station Image'>").openPopup();// Load the GeoJSON line file for day time route
-fetch('https://peterfiorica.github.io/Peterfiorica/PeterFiorica_daytimeroute.geojson')
+marker9.bindPopup("<b>New Dorp Train Station</b><br>I normally take this train home after my walk.<br><img src='https://github.com/Peterfiorica/Peterfiorica/raw/main/images/NewDorpTrain.jpeg' alt='New Dorp Train Station Image'>").openPopup();
+console.log("Image URL for marker9:", 'https://github.com/Peterfiorica/Peterfiorica/raw/main/images/NewDorpTrain.jpeg');
     
     .then(response => response.json())
     .then(geojson => {
