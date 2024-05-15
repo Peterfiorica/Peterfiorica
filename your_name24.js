@@ -100,7 +100,7 @@ function getFeatureStyle(feature) {
 
 
 // Load the GeoJSON polygon file
-fetch('https://Peterfiorica.github.io/Peterfiorica/HurricaneZones.geojson')
+fetch('https://Peterfiorica.github.io/Peterfiorica/HEV.geojson')
 .then(response => response.json())
 .then(geojson => {
     // Add the GeoJSON polygons to the map with customized style
